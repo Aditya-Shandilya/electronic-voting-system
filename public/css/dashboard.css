@@ -1,0 +1,134 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+  
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+    }
+  
+    a {
+      text-decoration: none;
+      color: #333;
+    } 
+  header {
+    color: rgb(0, 0, 0);
+    text-align:center;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align:center;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 0;
+  
+	margin-bottom: 20px;
+  }
+  
+  hr {
+    
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    
+  }
+  
+  input[type="text"],
+  select {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4796ff;
+  }
+  
+  button[type="submit"] {
+    background-color: #4796ff;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #4796ff;
+    border: 1px solid #4796ff;
+    cursor: pointer;
+  }
+  
+  /* Table styles */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #4796ff;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+    
+  }
+  
+  th {
+    background-color: #4796ff;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f29f;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #exportButton{
+    background-color: #4796ff;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

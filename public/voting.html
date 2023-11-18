@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/voting.css">
+  <script src="js/voting.js"> </script>
+  
+  <title>President and Vice President Voting Page</title>
+</head>
+<body onload="fetchCandidates()">
+  <div class="container">
+    <header>
+      <h1>&nbsp; &nbsp; &nbsp;  Voting Page </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">&nbsp;  &nbsp; Home &nbsp;   &nbsp;</a></li>
+          <li><a href="tc.html"> T & C &nbsp;  &nbsp;</a></li>
+          <li><a href="results.html"> Results &nbsp; </a></li>
+          <li><a href="login.html"> &nbsp;  &nbsp; Login  &nbsp; &nbsp;</a></li>
+          <li><a href="signup.html">  Register  &nbsp; &nbsp;</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>President and Vice President Voting Page</h1>
+    <p>Please select your preferred candidate for the President and Vice President positions:</p>
+    <form id="voting-form" method="POST">
+      <div class="form-group">
+        <label for="president">President:</label>
+        <select name="president" id="president">
+          <option value="">-- Select President --</option>
+        </select>
+      </div><br>
+      <div class="form-group">
+        <label for="vice-president">Vice President:</label>
+        <select name="vice-president" id="vice-president">
+          <option value="">-- Select Vice President --</option>
+        </select>
+      </div><br>
+      <button type="button" onclick="submitVote()">Submit Vote</button>
+    </form><br><br>
+    <img src="images/voting-poster.jpg" alt="">
+  </div>
+  <footer>
+    <p>&copy; 2023 Electronic Voting System. All rights reserved.</p>
+  </footer>
+</body>
+</html>

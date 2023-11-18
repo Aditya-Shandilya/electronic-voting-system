@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+ 
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+nav {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #4796ff;
+  color: #fff;
+}
+
+nav a.active {
+  background-color: #4796ff;
+  color: #fff;
+}
+
+
+main {
+	max-width: 1200px;
+	margin: 10px auto 0;
+	padding: 40px 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #333;
+}
+.card_terms {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.card_title {
+  text-align: center;
+  padding: 10px;
+}
+
+.card_title h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+ul {
+	margin-bottom: 40px;
+}
+
+li {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #666;
+}
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}

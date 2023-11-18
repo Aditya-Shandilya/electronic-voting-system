@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+    <script src="js/dashboard.js"></script>
+</head>
+<body>
+<header>
+    <h1 align="center">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Welcom to Dashboard of Electronic Voting System !!</h1>
+</header>
+
+<div class="container">
+    <h2 align="center">Add Candidate</h2>
+    <form id="addCandidateForm" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="position">Position:</label>
+      <select id="position" name="position">
+        <option value="president">President</option>
+        <option value="vice-president">Vice President</option>
+      </select>
+      <label for="party">Party:</label>
+      <input type="text" id="party" name="party">
+      <button type="submit">Add Candidate</button>
+    </form>
+
+    <hr>
+    <h2 align="center">Vote Count</h2>
+    <h3>For President:</h3>
+    <div id="presidentCandidates"></div>
+    <hr><br>
+    <h3>For Vice-President:</h3>
+    <div id="vicePresidentCandidates"></div>
+    <hr><br>
+    <button id="exportButton">Export Results</button>
+  </div>  <br><br>
+
+  <footer>
+		<p>&copy; 2023 Electronic Voting System. All rights reserved.</p>
+	</footer>
+</body>
+</html>
